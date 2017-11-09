@@ -1,0 +1,8 @@
+ena {{ENABLE}}
+config t
+snmp-server community {OLDSNMPR}} RO SNMP_MANAGE
+snmp-server community {{OLDSNMPRW}} RW SNMP_MANAGE
+snmp-server community {NEWSNMPR}} RO SNMP_MANAGE
+end
+wri 
+exit
